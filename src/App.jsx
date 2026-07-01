@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 
-import StudentForm from "./components/StudentForm";
-import StudentList from "./components/StudentList";
+import StudentForm from "./Components/StudentForm";
+import StudentList from "./Components/StudentList";
 
 function App() {
   const [rollNo, setRollNo] = useState("");
